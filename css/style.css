@@ -1418,3 +1418,18 @@ h6 {
     padding: 100px 0 20px 0;
   }
 }
+.video-contenedor {
+  position: relative;
+  padding-bottom: 70%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-contenedor video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
